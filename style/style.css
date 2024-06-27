@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient( #27a9ff, #111111);
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 64px;
+    height: 80px;
+}
+
+menu {
+    display: flex;
+    gap: 20px;
+}
+
+menu li {
+    width: fit-content;
+    height: 40px;
+    line-height: 48px;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+}
+
+menu li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+menu li a:link {
+    color: #003cff;
+    transition: 0.5s;
+}
+
+menu li a:visited {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+menu li a:hover {
+    color: #0011ff;
+    transition: 0.5s;
+}
+
+main {
+    width: 1280px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+}
+
+.imagem img {
+    width: 100%;
+}
+
+.camisa {
+    width: 305px;
+}
+
+.camisa {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.camisa .texto {
+    width: 100%;
+}
+
+a.btn {
+    background-color: #000000;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.noticia {
+    width: 1280px;
+    display: flex;
+    gap: 20px;
+}
+
+.foto {
+    width: 630px;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.texto {
+    width: 630px;
+}
+
+.produtos {
+    display: flex;
+}
+
+.bg4 {
+    background-image: url(../assets/d4a822b9856e466ba2a61152476128e2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ney {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.texto8 {
+    text-align: center;
+    align-items: center;
+    margin-top: 82px;
+    font-size: 30px;
+    color: #eeff00;
+}
+
+.bnt {
+    background-color: #45c4ff;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+    position: absolute;
+    top: 300px;
+    left: 565px;
+}
+
+.bnt:hover {
+    background-color: black;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #1c739b;
+    padding: 50px 0;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 15%;
+    height: 10%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #099dff;
+    padding-left: 10px;
+}
+
+.footer-col .social-icon1 {
+    margin-top: 30px;
+}
+
+.footer-col .social-icon1 a {
+    display: inline block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 15px 0;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-icon1 a i {
+    font-size: 20px;
+}
+
+.footer-col .social-icon1 a:hover {
+    color: #0c0b0b;
+}
+
+.footer-col .form-sub input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    color: red;
+    background-color: #ffffff;
+}
+
+.footer-col .form-sub button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: rgb(4, 104, 255);
+}
+
+.container-bran {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px);
+    gap: 100px;
+}
+
+.flex-box {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    gap: 80px;
+}
+
+.big-img {
+    width: 300px;
+}
+
+.big-img img {
+    width: inherit;
+}
+
+.imagemns {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.small-img {
+    width: 70px;
+}
+
+.small-img img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.small-img:hover img {
+    transform: scale(1.2);
+}
+
+.pname {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.ratings {
+    color: rgb(255, 136, 0);
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.size {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.prize p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.psize {
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 10px;
+}
+
+.psize .active {
+    border-width: 1.5px;
+    color: #ff5e00;
+    font-weight: 500;
+}
+
+.quantidaes {
+    display: flex;
+    margin-top: 15px;
+}
+
+.quantidaes input {
+    width: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.btn-box {
+    display: flex;
+    margin-top: 40px;
+}
+
+.btn-box button {
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+
+.cart-btn {
+    background-color: #ff5e00;
+    margin-right: 20px;
+}
+
+.buy-btn {
+    background-color: #1eeb28;
+}
+
+.cart-btn:hover {
+    background-color: #1eeb28;
+}
+
+.buy-btn:hover {
+    background-color: #ff5e00;
+}
+
+.camisa img {
+    width: 120px;
+    height: 90px;
+}
+
+.descricao {
+    color: white;
+}
+
+#login {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #fafafa80;
+    background-color: #fafafa40;
+    border-radius: 8px;
+    padding: 24px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 8px #24242480;
+}
+
+form {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"],
+input[type=password] {
+    width: 100%;
+    height: 32px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 32px;
+    border-radius: 16px;
+    border: none;
+}
+
+label {
+    font-size: 14px;
+}
